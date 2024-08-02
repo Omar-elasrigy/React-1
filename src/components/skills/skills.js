@@ -1,6 +1,12 @@
 
 import './skills.css'
+import { useState } from 'react';
+
 function Skills() {
+    const [level1,setLevel1]=useState(90)
+    const [level2,setLevel2]=useState(50)
+    const [level3,setLevel3]=useState(2)
+
     return (
         <>
         
@@ -31,17 +37,37 @@ function Skills() {
                             <p>Mobile App Design</p>
                           </div>
                         <div class="col">
-                          <div class="flex flex-column">
-                            <div class="row" >
+                          <div class="flex flex-column ">
+                            <div class="row mb-2" >
                                 <div class="col row" >
-                                    <div class="col-4 border" >HTML</div>
-                                    <div class="col-8 border p-0" >
-                                        <div class="bg-primary m-0">fgdfgd</div>
+                                    <div class="col-4 bg-secondary " >HTML</div>
+                                    <div class="col-8  p-0 bg-light" >
+                                        <div class="bg-success m-0 bar1 h-100 opacity-75" style={{width:`${level1}%`}}></div>
                                     </div>
 
                                 </div>
+                                
                             </div>
+                            <div class="row mb-2" >
+                                <div class="col row " >
+                                    <div class="col-4 bg-secondary " >Javascript</div>
+                                    <div class="col-8  p-0 bg-light" >
+                                        <div class="bg-success m-0 bar1 h-100 opacity-75" style={{width:`${level2}%`}}></div>
+                                    </div>
 
+                                </div>
+                                
+                            </div>
+                            <div class="row" >
+                                <div class="col row" >
+                                    <div class="col-4 bg-secondary " >CSS</div>
+                                    <div class="col-8  p-0 bg-light" >
+                                        <div class="bg-success m-0 bar1 h-100 opacity-75" style={{width:`${level3}%`}}></div>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
                           </div>
                           </div>
                     </div>
