@@ -1,0 +1,17 @@
+.box{
+    height: 200px;
+    gap: 15px;
+}
+.col-4{
+    height: 100%;
+}
+hr{
+    margin:0;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.customShadow {
+    box-shadow: -2px -17px 8px rgba(0, 0, 0, 0.3);
+}
