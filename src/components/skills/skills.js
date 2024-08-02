@@ -10,7 +10,7 @@ function Skills() {
     return (
         <>
         
-            <div class="text-center mt-3  " id="section2">
+            <div class="text-center mt  " id="section2">
                
                 <div class="w-75 mx-auto">
                 
