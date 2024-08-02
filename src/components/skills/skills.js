@@ -26,11 +26,13 @@ function Skills() {
               </div>
               <div class="container text-center">
                      <div class="row mt-5">
-                        <div class="col d-flex flex-column">
-                            <p>My Focus
+                        <div class="col d-flex flex-column ">
+                            <p className='w-100'>My Focus
                             <hr></hr>
+                            
 
                             </p>
+                            
                             <p>Ui/Ux Design</p>
                             <p>Responsive Design</p>
                             <p>Web Design</p>

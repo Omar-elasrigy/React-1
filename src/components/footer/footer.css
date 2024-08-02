@@ -1,0 +1,17 @@
+.footer{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin: 0;
+    font-size: 20px;
+}
+img{
+    width:70px;
+    height:70px;
+}
+.links{
+    gap:60px;
+}

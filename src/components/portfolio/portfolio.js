@@ -40,7 +40,7 @@ function Portfolio() {
 
             <div className='col bg-secondary d-flex flex-column align-items-center justify-content-center customShadow '>
                 <p className='text-center text-black'>PWA  Development</p>
-                <hr></hr>
+                <hr className='hr'></hr>
 
             </div>
 

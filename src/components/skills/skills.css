@@ -4,10 +4,11 @@
     font-size: 20px;
 }
 hr{
-    width:150px;
+   
     height:2px;
-  
-    margin:auto;
+    width: 30%;
+    margin: auto;
     margin-top: 10px;
+    text-align: center;
    background-color: white !important;
 }
