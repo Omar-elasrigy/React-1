@@ -6,7 +6,7 @@ import linkedin from './linkedin.webp'
 function Footer() {
     return (
         <>
-        <div className='row footer bg-dark mt-1'>
+        <div className='row footer bg-dark mt-1' id="footer">
             <div className='col h-100 d-flex flex-column '>
                 <h4 className='text-light text-center mt-2'>Get In Touch</h4>
                 <p className='text-center fw-light'> <a href="mailto:omarelasrigy01@gmail.com" class="text-white" >Email: omarelasrigy01@gmail.com</a></p>

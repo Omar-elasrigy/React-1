@@ -1,5 +1,6 @@
 import joile from './joile.jpg'
 import './hero.css'
+import cv from './efada.PNG'
 function Hero() {
     return (
         <>
@@ -11,8 +12,9 @@ function Hero() {
             </h1>
             <h2 class="text-light" >Web Developer</h2>
             <div>
-                <button class="btn bg-dark text-light">Contact Me</button>
-                <button class="btn bg-dark text-light ms-5">Download Resume</button>
+                <button class="btn bg-dark text-light"> <a href="#footer" className='text-light'>Contact Me </a></button>
+                <button class="btn bg-dark text-light ms-5"><a href={cv} className='text-light' download>Download Resume</a></button>
+                
             </div>
         </div>
         
