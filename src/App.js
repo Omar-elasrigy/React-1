@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Hero from './components/hero/hero'
-import Skills from './components/skills/skills'
+import Profile from './pages/profile/profile'
+
 
 function App() {
   return (
     <>
-    <Hero/>
-    <Skills/>
+  
+    <Profile/>
     </>
     
 

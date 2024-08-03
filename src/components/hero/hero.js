@@ -1,4 +1,4 @@
-import joile from './joile.jpg'
+import joile from './joile2.jpg'
 import './hero.css'
 import cv from './efada.PNG'
 function Hero() {
